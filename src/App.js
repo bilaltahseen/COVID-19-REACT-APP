@@ -37,6 +37,7 @@ const App = () => {
       <Container className={classes.root} maxWidth='lg'>
         <Paper elevation={0} className={classes.heading}>
           <img
+            alt='covid 19 logo'
             width='100px'
             height='100px'
             src='https://images.vexels.com/media/users/3/193092/isolated/preview/bc883ba3bb35fc54dd1aa45844dc6471-covid-19-stroke-icon-by-vexels.png'

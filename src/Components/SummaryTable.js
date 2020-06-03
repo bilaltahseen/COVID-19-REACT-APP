@@ -60,6 +60,7 @@ const SummaryTable = (props) => {
                     justifyContent='space-between'
                   >
                     <img
+                      alt={row.CountryCode}
                       src={`https://www.countryflags.io/${row.CountryCode}/flat/32.png`}
                     />
                     <p>{row.Country}</p>

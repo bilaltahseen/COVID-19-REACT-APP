@@ -1,6 +1,6 @@
 # This is a basic workflow to help you get started with Actions
 
-name: CI
+name: Deploy Surge React App
 
 # Controls when the action will run. Triggers the workflow on push or pull request
 # events but only for the master branch
@@ -36,4 +36,4 @@ jobs:
     - name: Install Surge
       run: npm install -g surge 
     - name: Deploy Using Surge
-      run: surge ./build covid19tracker_bilaltahseen --token ${{ secrets.SURGE_TOKEN }}
+      run: surge ./build covid19tracker_bilaltahseen.surge.sh --token ${{ secrets.SURGE_TOKEN }}

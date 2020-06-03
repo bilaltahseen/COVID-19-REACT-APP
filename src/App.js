@@ -13,6 +13,7 @@ const useStyles = makeStyles((theme) => ({
     fontWeight: 500,
     display: 'flex',
     flexDirection: 'row',
+    alignItems: 'center',
     '& p': { marginLeft: 20 },
   },
 }));
